@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KNearestNeighbor	../k_nearest_neighbor.py	/^class KNearestNeighbor(object):$/;"	kind:class	line:5
+LinearClassifier	../linear_classifier.py	/^class LinearClassifier(object):$/;"	kind:class	line:7
+LinearSVM	../linear_classifier.py	/^class LinearSVM(LinearClassifier):$/;"	kind:class	line:125
+Softmax	../linear_classifier.py	/^class Softmax(LinearClassifier):$/;"	kind:class	line:132
+TwoLayerNet	../neural_net.py	/^class TwoLayerNet(object):$/;"	kind:class	line:6
+__init__	../k_nearest_neighbor.py	/^  def __init__(self):$/;"	kind:member	line:8
+__init__	../linear_classifier.py	/^  def __init__(self):$/;"	kind:member	line:9
+__init__	../neural_net.py	/^  def __init__(self, input_size, hidden_size, output_size, std=1e-4):$/;"	kind:member	line:21
+__init__.py	../__init__.py	1;"	kind:file	line:1
+compute_distances_no_loops	../k_nearest_neighbor.py	/^  def compute_distances_no_loops(self, X):$/;"	kind:member	line:105
+compute_distances_one_loop	../k_nearest_neighbor.py	/^  def compute_distances_one_loop(self, X):$/;"	kind:member	line:82
+compute_distances_two_loops	../k_nearest_neighbor.py	/^  def compute_distances_two_loops(self, X):$/;"	kind:member	line:51
+k_nearest_neighbor.py	../k_nearest_neighbor.py	1;"	kind:file	line:1
+linear_classifier.py	../linear_classifier.py	1;"	kind:file	line:1
+linear_svm.py	../linear_svm.py	1;"	kind:file	line:1
+loss	../linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:107
+loss	../linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:128
+loss	../linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	kind:member	line:135
+loss	../neural_net.py	/^  def loss(self, X, y=None, reg=0.0):$/;"	kind:member	line:43
+neural_net.py	../neural_net.py	1;"	kind:file	line:1
+predict	../k_nearest_neighbor.py	/^  def predict(self, X, k=1, num_loops=0):$/;"	kind:member	line:25
+predict	../linear_classifier.py	/^  def predict(self, X):$/;"	kind:member	line:80
+predict	../neural_net.py	/^  def predict(self, X):$/;"	kind:member	line:191
+predict_labels	../k_nearest_neighbor.py	/^  def predict_labels(self, dists, k=1):$/;"	kind:member	line:133
+softmax.py	../softmax.py	1;"	kind:file	line:1
+softmax_loss_naive	../softmax.py	/^def softmax_loss_naive(W, X, y, reg):$/;"	kind:function	line:4
+softmax_loss_vectorized	../softmax.py	/^def softmax_loss_vectorized(W, X, y, reg):$/;"	kind:function	line:40
+svm_loss_naive	../linear_svm.py	/^def svm_loss_naive(W, X, y, reg):$/;"	kind:function	line:5
+svm_loss_vectorized	../linear_svm.py	/^def svm_loss_vectorized(W, X, y, reg):$/;"	kind:function	line:65
+train	../k_nearest_neighbor.py	/^  def train(self, X, y):$/;"	kind:member	line:11
+train	../linear_classifier.py	/^  def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=100,$/;"	kind:member	line:12
+train	../neural_net.py	/^  def train(self, X, y, X_val, y_val,$/;"	kind:member	line:114
